@@ -1,0 +1,267 @@
+.letras{
+    font-style: italic;
+    font-weight:bolder;
+    font-size:18px;
+    font-family:'Consolas','monaco','monospace';
+}
+.FondodePantalla{
+    background-color: rgb(206, 201, 201);
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+}
+.BarradeNavegacion{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(206, 201, 201);
+    border-top:solid 5px #9b8d94;
+    border-left: solid 5px #313031;
+    border-right: solid 5px #9b8d94;
+    border-bottom: solid 5px #313031;
+    border-radius: 6px;
+    top: 0;
+}
+.IniciodeSeccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+.containerOwnApp {
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    padding-top: 15px;
+}
+.login-page {
+    padding: 0% 0 0;
+    margin: 20px auto 20px;
+    max-width: 360px;
+    position: relative;
+    text-align: center;
+}
+.login-form {
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+.login-form-header {
+    padding-top: 16px;
+}
+.login-form-header {
+    padding-top: 16px;
+}
+.login-from-row {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.login-form-font-header {
+    font-size:30px; 
+    font-weight: bold;
+}
+.login-form-font-header span {
+    color: #007C9B;
+}
+.botonesInicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    background-color: rgb(206, 201, 201);
+    border-top:solid 4px #9b8d94;
+    border-left: solid 4px #9b8d94;
+    border-right: solid 4px #9b8d94;
+    border-bottom: solid 4px #9b8d94;
+    border-radius: 6px;
+    top: 0;
+    margin-top: 100px;
+}
+.footerContactos{
+    text-align: center;
+    width: 100%;
+}
+.logoInicio_edicionImagen{
+    height: 60px;
+    border-radius: 90px;
+    margin-top: 0%;
+}
+.navbar-brand {
+    float: left;
+    height: 66px;
+    padding: 4px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+//UBICACION
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+//CONTACTOS
+.infoContactos{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.contenedorContactos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.footerContactos{
+    text-align: center;
+    width: 100%;
+}
+//CARRITO
+.infoCarrito{
+    text-align: center;
+    margin-bottom: 10px;
+}
+//PRODUCTOS
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+.fondoDescuentoCard1{
+    display: flex;
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+//SE AGREGA UN MIXIN
+$colordefondo:#8d4848; 
+@mixin Card ($width, $height){
+    height: $height;
+    width: $width;    
+    .card1{
+        background-color: $colordefondo;
+        position: relative;
+        border-radius: 15px;
+        margin-top: 20px;
+        @include Card(450px,650px);
+    .card2{
+        background-color: $colordefondo;
+        position: relative;
+        border-radius: 15px;
+        margin-top: 20px;
+        @include Card(450px,650px);
+    }
+    .card3{
+        background-color: $colordefondo;
+        position: relative;
+        border-radius: 15px;
+        margin-top: 20px;
+        @include Card(450px,650px);
+    }
+    .card4{
+        background-color: $colordefondo;
+        position: relative;
+        border-radius: 15px;
+        margin-top: 20px;
+        @include Card(450px,650px);
+    }
+    .card5{
+        background-color: $colordefondo;
+        position: relative;
+        border-radius: 15px;
+        margin-top: 20px;
+        @include Card(450px,650px);
+    }
+    }
+}
+.card1 img{
+    width: 200px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20x;
+    margin-bottom: 0px;
+}
+.card2 img{
+    width: 200px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20x;
+    margin-bottom: 0px;
+}
+.card3 img{
+    width: 200px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20x;
+    margin-bottom: 0px;
+}
+.card4 img{
+    width: 200px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20x;
+    margin-bottom: 0px;
+}
+.card5 img{
+    width: 200px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20x;
+    margin-bottom: 0px;
+}
+.card6 img{
+    width: 200px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20x;
+    margin-bottom: 0px;
+}
+//SE AGREGA EXTEND
+.botonProductos{
+    width: 200px;
+    height:25px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+$colorprimario: #9b8d94;
+.Agregar{
+    @extend .botonProductos;
+    background-color: $colorprimario;
+}
+//ANIMACION
+.zoom {
+    transition: transform .2s;
+    &:hover {
+        transform: scale(1.5); 
+        border-radius: 6px;
+    }
+}
