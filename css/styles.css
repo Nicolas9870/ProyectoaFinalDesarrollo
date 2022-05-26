@@ -90,6 +90,13 @@ h2 {
   top: 0;
   margin-top: 100px; }
 
+.zoom {
+  transition: transform .2s; }
+  .zoom:hover {
+    transform: scale(1.5);
+    border-radius: 6px;
+    border: #313031; }
+
 .footerContactos {
   text-align: center;
   width: 100%; }
@@ -158,7 +165,8 @@ h2 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 20x;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-radius: 6px; }
 
 .card2 img {
   width: 200px;
@@ -166,7 +174,8 @@ h2 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 20x;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-radius: 6px; }
 
 .card3 img {
   width: 200px;
@@ -174,7 +183,8 @@ h2 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 20x;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-radius: 6px; }
 
 .card4 img {
   width: 200px;
@@ -182,7 +192,8 @@ h2 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 20x;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-radius: 6px; }
 
 .card5 img {
   width: 200px;
@@ -190,7 +201,8 @@ h2 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 20x;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-radius: 6px; }
 
 .card6 img {
   width: 200px;
@@ -198,7 +210,8 @@ h2 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 20x;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-radius: 6px; }
 
 .botonProductos, .Agregar {
   width: 200px;
@@ -208,9 +221,3 @@ h2 {
 
 .Agregar {
   background-color: #9b8d94; }
-
-.zoom {
-  transition: transform .2s; }
-  .zoom:hover {
-    transform: scale(1.5);
-    border-radius: 6px; }
